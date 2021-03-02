@@ -1,0 +1,23 @@
+@import "../../../../../styles/config.scss";
+
+.multichoiceContainer {
+  display: flex;
+  justify-content: center;
+
+  button {
+    font-size: 1.3rem;
+    background: transparent;
+    border: $fontColor 2px solid;
+    border-radius: $radius-size;
+    color: $codeBackground;
+    padding: 0.75rem $paddingOrMarging;
+
+    &:not(:last-child) {
+      margin-right: $paddingOrMarging;
+    }
+
+    &:hover {
+      background: $fontColorHover;
+    }
+  }
+}

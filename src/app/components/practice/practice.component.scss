@@ -1,0 +1,27 @@
+@import "../../../styles/config.scss";
+
+.practiceContainer {
+  width: 70vh;
+  margin: auto;
+  padding: $paddingOrMarging;
+  color: $fontColor;
+
+  .instructionsTitle {
+    margin-bottom: $paddingOrMarging;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    color: $codeBackground;
+    font-weight: bold;
+  }
+
+  .codeContainer {
+    padding: $paddingOrMarging;
+    border-radius: $radius-size;
+
+    font-size: 1.3rem;
+
+    color: $codeColor;
+    background: $codeBackground;
+    margin-bottom: $paddingOrMarging;
+  }
+}

@@ -1,0 +1,5 @@
+<div *ngIf="multiChoiceRandomize?.length" class="multichoiceContainer">
+  <button *ngFor="let choice of multiChoiceRandomize" class="choiceButton">
+    {{ choice.label }}
+  </button>
+</div>

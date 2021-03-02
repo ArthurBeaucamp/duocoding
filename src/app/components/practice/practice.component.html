@@ -1,0 +1,12 @@
+<div *ngIf="exerciceSelected" class="practiceContainer">
+  <p class="instructionsTitle">{{ exerciceSelected.instruction }}</p>
+
+  <div class="codeContainer">
+    <p>{{ exerciceSelected.code }}</p>
+  </div>
+</div>
+
+<app-pratice-multichoice
+  *ngIf="exerciceSelected?.multiChoice"
+  [multiChoice]="exerciceSelected.multiChoice"
+></app-pratice-multichoice>
